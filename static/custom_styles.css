@@ -1,0 +1,133 @@
+/* Remove space at the top of the page */
+.css-1d391kg {
+    margin-top: 0px !important;
+}
+
+/* Remove the space that the image might have around it */
+.stImage {
+    margin-top: 0px !important;
+}
+
+/* Remove padding or margin for the page container */
+body {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    line-height: 1.6;
+}
+
+.st-emotion-cache-yw8pof {
+    width: 100%;
+    padding: 0.5rem 1rem 10rem;
+    max-width: 46rem;
+}
+
+.st-emotion-cache-12fmjuu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0rem;
+    background: rgb(255, 255, 255);
+    outline: none;
+    z-index: 999990;
+    display: block;
+}
+
+.st-emotion-cache-1c21bey {
+    width: 657.333px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.st-emotion-cache-kgpedg {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: start;
+    padding: calc(0rem) 1.5rem 0rem;
+}
+
+.st-emotion-cache-ue6h4q {
+    font-size: 14px;
+    color: rgb(49, 51, 63);
+    display: flex;
+    visibility: visible;
+    margin-bottom: 0.25rem;
+    height: 1;
+    min-height: 1.5rem;
+    vertical-align: middle;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+/*For checking header size*/
+.st-emotion-cache-1104ytp h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding: 1rem 0.1px 0.2rem;
+}
+/* for changing font style */
+
+body {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    line-height: 1.5;
+}
+
+.st-emotion-cache-1ibsh2c {
+    width: 100%;
+    padding: 0rem 1rem 1rem;
+    max-width: initial;
+    min-width: auto;
+}
+
+.st-emotion-cache-fsammq p {
+    word-break: break-word;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/* for changing ask question font */
+.st-emotion-cache-1104ytp h2 {
+    font-size: 1.8rem;
+    padding: 1rem 0px;
+}
+/* for changing padding of text doc */
+.st-emotion-cache-mtjnbi {
+    width: 100%;
+    padding: 1rem 1rem 10rem;
+    max-width: 736px;
+}
+
+.st-emotion-cache-1104ytp h1 {
+    font-size: 2.0rem;
+    font-weight: 800;
+    padding: 1rem 0.1px 1.2rem;
+}
+
+/* for changing icon and font styles */
+
+.st-emotion-cache-16tyu1 h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.25rem 0px 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.st-emotion-cache-16tyu1 h2 {
+    font-size: 1.4rem;
+    padding: 1rem 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.st-emotion-cache-16tyu1 img {
+    max-width: 100%;
+    vertical-align: middle;
+    width: 50px;
+}
