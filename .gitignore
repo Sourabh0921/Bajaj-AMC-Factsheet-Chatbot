@@ -1,2 +1,37 @@
-# .gitignore
+# Environment variables
 .env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+bjfinvenv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# API Keys and secrets
+*.key
+secrets/
+config/secrets.json
