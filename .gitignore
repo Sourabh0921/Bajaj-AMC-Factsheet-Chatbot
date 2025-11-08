@@ -1,37 +1,48 @@
-# Environment variables
+# --------------------------
+# Environment & Secrets
+# --------------------------
 .env
-.env.local
-.env.production
-.env.staging
-*.env
+.env.*
+!*.example        # keep example envs
+.streamlit/secrets.toml
+secrets/
+config/secrets.json
 
+# --------------------------
 # Python
+# --------------------------
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.Python
+*.egg-info/
+dist/
+build/
+
+# --------------------------
+# Virtual Environments
+# --------------------------
 venv/
 .venv/
 env/
 bjfinvenv/
+genaienv/
 
+# --------------------------
 # Streamlit
-.streamlit/secrets.toml
+# --------------------------
+.streamlit/
 
-# IDE files
+# --------------------------
+# IDEs & Editors
+# --------------------------
 .vscode/
 .idea/
 
-# OS files
+# --------------------------
+# OS & Logs
+# --------------------------
 .DS_Store
 Thumbs.db
-
-# Logs
 *.log
 logs/
-
-# API Keys and secrets
-*.key
-secrets/
-config/secrets.json
