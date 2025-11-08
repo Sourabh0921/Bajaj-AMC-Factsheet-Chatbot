@@ -7,7 +7,7 @@ from langchain_groq import ChatGroq
 import streamlit as st
 import re
 
-groq_api_key = os.getenv("GROQ_API_KEY")
+# groq_api_key = os.getenv("GROQ_API_KEY")
 
 def clean_response(response_text):
     text = re.sub(r"<think>.*?</think>", "", response_text, flags=re.DOTALL)    
